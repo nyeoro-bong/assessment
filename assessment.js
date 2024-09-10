@@ -19,7 +19,7 @@ assesssmentButton.addEventListener(
     // headerDivision の作成
     const headerDivision = document.createElement(`div`);
     headerDivision.setAttribute(`class`, `card-header text-bg-primary`);
-    headerDivision.innerText
+    headerDivision.innerText = "診断結果";
 
     // bodyDivision の作成
     const bodyDivision = document.createElement(`div`);
